@@ -5,8 +5,8 @@ class Solution:
         left = 0
         right = len(filteredString) - 1
         while left < right:
-                if filteredString[left] != filteredString[right]:
-                    return False
-                left += 1
-                right -= 1
+            if filteredString[left] != filteredString[right]:
+                return False
+            left += 1
+            right -= 1
         return True
